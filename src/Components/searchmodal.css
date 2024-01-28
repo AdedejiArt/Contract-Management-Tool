@@ -1,0 +1,38 @@
+ 
+.custom-select {
+     
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  .custom-select:focus {
+    border: 2px solid #000000;
+  }
+  
+  .custom-select:hover {
+    border: 2px solid #000000;
+  }
+  
+  .custom-option {
+    /* Option styles */
+    background: transparent;
+    color: #000000;
+  }
+  
+  .custom-option:hover,
+  .custom-option:focus {
+    background: #eeeeee;
+    color: #000000;
+  }
+  
+  .custom-option:selected {
+    background: #000000;
+    color: #ffffff;
+  }
+  
+  .custom-option:selected:hover,
+  .custom-option:selected:focus {
+    background: #000000;
+    color: #ffffff;
+  }
+  
